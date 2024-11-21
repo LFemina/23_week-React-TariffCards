@@ -1,0 +1,46 @@
+.tariff {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color:#fffbfb;
+    width: 300px;
+    height: 220px;
+}
+
+.tariff.highlight {
+    transform: scale(1.2);
+}
+
+.tariff-title {
+    margin: 20px;
+    font-size: 1.5em;
+}
+
+.tariff-section {
+    background-color:#fffbfb;
+    color: #666;
+    padding: 20px;
+}
+
+.tariff-footer {
+    background-color: #f0f0f0;
+    padding: 8px;
+    border-top: 1px solid #ccc;
+    color: #666;
+}
+
+.price-size {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.tariff-price, .tariff-speed, .tariff-traffic{
+    margin: 4px 0;
+}
+
+.tariff-price {
+    margin-bottom: 20px;
+}
