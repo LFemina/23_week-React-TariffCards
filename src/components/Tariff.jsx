@@ -1,9 +1,9 @@
 import React from "react";
 import './Tariff.css';
 
-const Tariff = ({ title, price, speed, traffic, highlight, color }) => {
+const Tariff = ({ title, price, speed, traffic, highlight, color, onClick }) => {
     return (
-        <div className={`tariff ${highlight ? 'highlight' : ''}`} style={{ backgroundColor: color }}>
+        <div className={`tariff ${highlight ? 'highlight' : ''}`} style={{ backgroundColor: color }} onClick={() => onClick(title)}>
             <h2 className="tariff-title">{title}</h2>
             <div className="tariff-body">
                 <p className="tariff-price">руб <big className="price-size">{price}</big> /мес</p>
